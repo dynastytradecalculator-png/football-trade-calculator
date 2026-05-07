@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dynasty Football Trade Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🏈 Dynasty Football Trade Calculator</h1>
+
+    <div class="card">
+      <h2>Team A Value</h2>
+      <input type="number" id="teamA" placeholder="Enter Team A value">
+    </div>
+
+    <div class="card">
+      <h2>Team B Value</h2>
+      <input type="number" id="teamB" placeholder="Enter Team B value">
+    </div>
+
+    <button onclick="calculateTrade()">Analyze Trade</button>
+
+    <h2 id="result"></h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
